@@ -1,18 +1,18 @@
 header {
-	background: url(../img/bg1.jpg) no-repeat center bottom / cover;
+  background: url(../img/bg1.jpg) no-repeat center bottom / cover;
   height: 100%;
   max-height: 700px;
-	padding-bottom: 160px;
+  padding-bottom: 160px;
 }
 
 h1 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 75px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 75px;
   font-weight: 700;
-	color: #fff;
-	text-align: center;
-	text-transform: uppercase;
-	margin: 40px 0;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
 }
 
 form {
@@ -64,52 +64,52 @@ p {
 }
 
 .container {
-	max-width: 980px;
-	margin: 0 auto;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .title-block {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 115px;
 }
 
 .title-block h2 {
-	font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: 600;
   color: rgb(51, 51, 51);
-	text-transform: uppercase;
-	margin: 0;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .title-block p {
-	font-family: 'Droid Serif', serif;
+  font-family: 'Droid Serif', serif;
   font-size: 18px;
-	color: #777;
-	margin-top: 20px;
+  color: #777;
+  margin-top: 20px;
 }
 
 .social {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .wrapper {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .main-menu {
-	display: flex;
-	flex-direction: row;
-	margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
 }
 
 .main-menu li {
-	margin-right: 41px;
+  margin-right: 41px;
   transition: all 300ms;
 }
 
@@ -120,41 +120,41 @@ p {
 }
 
 .main-menu a {
-	color: #fff;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .logo {
-	margin-top: 42px;
-	margin-left: 20px;
+  margin-top: 42px;
+  margin-left: 20px;
   width: 100%;
 }
 
 .title {
-	font-family: 'Droid Serif', serif;	
-	font-size: 40px;
-	color: #fff;
-	text-align: center;
-	margin: 180px 0 0 0;
+  font-family: 'Droid Serif', serif;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  margin: 180px 0 0 0;
 }
 
 .btn-more, .btn-submit {
-	display: block;
-	background-color: #fed136;
+  display: block;
+  background-color: #fed136;
   border: 0;
-	color: #fff;
+  color: #fff;
   cursor: pointer;
-	border-radius: 3px;
-	width: 240px;
-	margin: 0 auto;
-	padding: 24px 0;
-	font-size: 18px;
-	font-weight: 600;
-	text-transform: uppercase;
-	text-align: center;
-	margin-top: 60px;
+  border-radius: 3px;
+  width: 240px;
+  margin: 0 auto;
+  padding: 24px 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .btn-more:hover, .btn-submit:hover {
@@ -165,23 +165,23 @@ p {
 /* begin SERVICES STYLE  */
 
 .services {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin: 50px 0 115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 0 115px;
 }
 
 .services__item {
-	width: 290px;
+  width: 290px;
   display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	margin:0 23px 0;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin:0 23px 0;
 }
 
 .services__item h3 {
-	font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 19px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -190,8 +190,8 @@ p {
 .services__item p {
   font-size: 15px;
   color: #777;
-	line-height: 1.55em;
-	margin: 0;
+  line-height: 1.55em;
+  margin: 0;
 }
 
 /* end SERVICES STYLE  */

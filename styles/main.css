@@ -32,11 +32,13 @@ input[type="email"] {
 
 textarea {
   width: 450px;
-  padding: calc( 40px / 5 );
+  height: 210px;
+  max-height: 100%;
   text-transform: uppercase;
   border-radius: 3px;
   border-width: 0;
   margin: 0 0 0 30px;
+  padding: calc( 40px / 5 );
 }
 
 textarea::-webkit-input-placeholder,
@@ -99,12 +101,13 @@ p {
 
 .main-menu li {
   margin-right: 41px;
+  padding-bottom: 3px;
   transition: all 300ms;
 }
 
 .main-menu li:hover,
 .main-menu li:active {
-  padding-bottom: 3px;
+
   border-bottom: 2px solid #fed136;
 }
 
@@ -117,9 +120,10 @@ p {
 }
 
 .logo {
+  max-width: 80px;
+  max-height: 31px;
   margin-top: 42px;
   margin-left: 20px;
-  width: 100%;
 }
 
 .title {
@@ -147,19 +151,19 @@ p {
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
-  width: 240px;
+  width: 241px;
   margin: 0 auto;
-  padding: 24px 0;
+  padding: 22px 0;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
   margin-top: 60px;
+  transition: all 700ms;
 }
 
 .btn-more:hover, .btn-submit:hover {
-  background-color: #FEF9B6;
-  color: #fea315;
+  background-color: #fedb67;
 }
 
 /* begin SERVICES STYLE  */
@@ -194,6 +198,11 @@ p {
   margin: 0;
 }
 
+.services__item img {
+  max-width: 75px;
+  max-height: 75px;
+}
+
 /* end SERVICES STYLE  */
 
 /* portfolio start */
@@ -221,6 +230,8 @@ p {
   box-shadow: 0 0 20px 3px rgba(0,0,0,0.3);
 }
 .works__item img {
+  max-width: 290px;
+  max-height: 302px;
   transition: all 800ms;
 }
 .works__item img:hover {
@@ -258,7 +269,8 @@ p {
   margin-top: 60px;
 }
 .about-block-item_image {
-  width: 183px;
+  max-width: 185px;
+  max-height: 180px;
   position: relative;
   display: inline-block;
   border-radius: 50%;
@@ -329,8 +341,8 @@ b {
 }
 
 .our-team__item figure > img {
-  width: 219px;
-  height: 219px;
+  max-width: 219px;
+  max-height: 219px;
   border-radius: 100%;
   transition: all 800ms;
 }
@@ -366,6 +378,12 @@ b {
 
 .our-team__item ul > li {
   padding: 0 6px;
+}
+
+.team-social-icons,
+.social__item img {
+  max-width: 41px;
+  max-height: 41px;
 }
 
 /*team block end*/

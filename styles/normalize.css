@@ -227,6 +227,8 @@ audio:not([controls]) {
 
 img {
   border-style: none;
+  width: 100%;
+  height: 100%;
 }
 
 /**
@@ -264,7 +266,7 @@ textarea {
 button,
 input { /* 1 */
   overflow: visible;
-  outline: none;
+  /*outline: none;*/
 }
 
 /**
